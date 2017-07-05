@@ -1,0 +1,760 @@
+ERROR:django.request:Internal Server Error: /voice_report/rec/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'case'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/voice_report/views.py", line 229, in index
+    input_data = request.GET['case']
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'case'"
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /
+ERROR:django.request:Internal Server Error: /voice_report/rec/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'case'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/voice_report/views.py", line 229, in index
+    input_data = request.GET['case']
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'case'"
+ERROR:django.request:Internal Server Error: /voice_report/rec/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/voice_report/views.py", line 264, in index
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /voice_report/rec/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/voice_report/views.py", line 264, in index
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+WARNING:django.request:Not Found: /data_collection/segement/
+WARNING:django.request:Not Found: /data_collection/segement/
+WARNING:django.request:Not Found: /data_collection/segements/
+WARNING:django.request:Not Found: /data_collection/segement/
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 15, in terms
+    term = json_info['terms']
+KeyError: 'terms'
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 15, in terms
+    term = json_info['terms']
+KeyError: 'terms'
+WARNING:django.request:Not Found: / data_collection /segment/
+WARNING:django.request:Not Found: / data_collection /segment/
+WARNING:django.request:Not Found: /data_collection /segment/
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 31, in seg
+    dic = segment.location(uid, sentence)
+  File "/python_crf/python/django/qgw/data_collection/segment.py", line 33, in location
+    term = terms_py[0][0].split(',')
+IndexError: list index out of range
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 2 (char 3)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 3 column 1 (char 62)
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /favicon.ico
+ERROR:django.request:Internal Server Error: /data_collection/terms
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/utils/deprecation.py", line 134, in __call__
+    response = self.process_request(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/middleware/common.py", line 63, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/middleware/common.py", line 101, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to demo1.ibdbots.com/data_collection/terms/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /data_collection
+ERROR:django.request:Internal Server Error: /data_collection/terms/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 14, in terms
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 29, in seg
+    sentence = json_info['sentence']
+KeyError: 'sentence'
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 29, in seg
+    sentence = json_info['sentence']
+KeyError: 'sentence'
+ERROR:django.request:Internal Server Error: /data_collection/segment/
+Traceback (most recent call last):
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = get_response(request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/python_crf/python/django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/python_crf/python/django/qgw/data_collection/views.py", line 27, in seg
+    json_info = json.loads(encoding='utf8', s=request.body.decode('utf8'))
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
